@@ -10,7 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FirstBakery">
         <activity
-            android:name=".productsActivity"
+            android:name=".BranchesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ServicesActivity"
+            android:exported="false"
+            android:label="@string/title_activity_services"
+            android:theme="@style/Theme.FirstBakery.NoActionBar" />
+        <activity
+            android:name=".ProductsActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

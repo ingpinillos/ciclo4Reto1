@@ -47,24 +47,18 @@ public class MainActivity extends AppCompatActivity {
         switch (item.getItemId()) {
             case R.id.products:
                 Toast.makeText(getApplicationContext(), "Productos", Toast.LENGTH_LONG ).show();
-                /*
-                Intent productScreen = new Intent(this, productsActivity.class);
+                Intent productScreen = new Intent(this, ProductsActivity.class);
                 startActivity(productScreen);
-                */
                 return true;
             case R.id.services:
                 Toast.makeText(getApplicationContext(), "Servicios", Toast.LENGTH_LONG ).show();
-                /*
-                Intent serviceScreen = new Intent(this, servicesActivity.class);
+                Intent serviceScreen = new Intent(this, ServicesActivity.class);
                 startActivity(serviceScreen);
-                 */
                 return true;
             case R.id.branches:
                 Toast.makeText(getApplicationContext(), "Sucursales", Toast.LENGTH_LONG ).show();
-                /*
-                Intent brancheScreen = new Intent(this, branchesActivity.class);
+                Intent brancheScreen = new Intent(this, BranchesActivity.class);
                 startActivity(brancheScreen);
-                */
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
