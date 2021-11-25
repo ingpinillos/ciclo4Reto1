@@ -32,19 +32,19 @@
         tools:layout_editor_absoluteY="65dp">
 
         <TableRow
-            android:id="@+id/imagen1"
+            android:id="@+id/image1"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
             <ImageView
-                android:id="@+id/imageView"
+                android:id="@+id/imageView1"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:contentDescription="TODO"
                 app:srcCompat="@drawable/prd1" />
 
             <TextView
-                android:id="@+id/textViewImagen1"
+                android:id="@+id/textViewImage1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Mixed Berries"
@@ -52,19 +52,19 @@
         </TableRow>
 
         <TableRow
-            android:id="@+id/imagen2"
+            android:id="@+id/image2"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
             <ImageView
-                android:id="@+id/imageView"
+                android:id="@+id/imageView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:contentDescription="TODO"
                 app:srcCompat="@drawable/prd2" />
 
             <TextView
-                android:id="@+id/textViewImagen2"
+                android:id="@+id/textViewImage2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Croissant"
@@ -72,19 +72,19 @@
         </TableRow>
 
         <TableRow
-            android:id="@+id/imagen3"
+            android:id="@+id/image3"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
             <ImageView
-                android:id="@+id/imageView"
+                android:id="@+id/imageView3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:contentDescription="TODO"
                 app:srcCompat="@drawable/prd3" />
 
             <TextView
-                android:id="@+id/textViewImagen3"
+                android:id="@+id/textViewImage3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Custard Donut"
@@ -92,22 +92,42 @@
         </TableRow>
 
         <TableRow
-            android:id="@+id/imagen4"
+            android:id="@+id/image4"
             android:layout_width="match_parent"
             android:layout_height="207dp">
 
             <ImageView
-                android:id="@+id/imageView"
+                android:id="@+id/imageView4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:contentDescription="TODO"
                 app:srcCompat="@drawable/prd4" />
 
             <TextView
-                android:id="@+id/textViewImagen4"
+                android:id="@+id/textViewImage4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Red Bean Dount"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/image5"
+            android:layout_width="match_parent"
+            android:layout_height="207dp">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="TODO"
+                app:srcCompat="@drawable/prd5" />
+
+            <TextView
+                android:id="@+id/textViewImage5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sunrise"
                 android:textSize="16sp" />
         </TableRow>
     </TableLayout>
