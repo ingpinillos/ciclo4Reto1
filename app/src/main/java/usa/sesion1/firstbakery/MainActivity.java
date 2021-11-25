@@ -28,10 +28,10 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 texto1.setText("Fisrt Bakery..!");
-                Toast.makeText(getApplicationContext(), "oprimio un boton", Toast.LENGTH_LONG ).show();
+                Toast.makeText(getApplicationContext(), "Algún día vamos a re dirigir a WhatsApp", Toast.LENGTH_LONG ).show();
             }
         });
-        texto1 = (TextView) findViewById(R.id.texto1);
+        texto1 = (TextView) findViewById(R.id.textView1);
     }
 
     @Override
@@ -46,17 +46,17 @@ public class MainActivity extends AppCompatActivity {
         // Handle item selection
         switch (item.getItemId()) {
             case R.id.products:
-                Toast.makeText(getApplicationContext(), "Productos", Toast.LENGTH_LONG ).show();
+                Toast.makeText(getApplicationContext(), "Products", Toast.LENGTH_LONG ).show();
                 Intent productScreen = new Intent(this, ProductsActivity.class);
                 startActivity(productScreen);
                 return true;
             case R.id.services:
-                Toast.makeText(getApplicationContext(), "Servicios", Toast.LENGTH_LONG ).show();
+                Toast.makeText(getApplicationContext(), "Services", Toast.LENGTH_LONG ).show();
                 Intent serviceScreen = new Intent(this, ServicesActivity.class);
                 startActivity(serviceScreen);
                 return true;
             case R.id.branches:
-                Toast.makeText(getApplicationContext(), "Sucursales", Toast.LENGTH_LONG ).show();
+                Toast.makeText(getApplicationContext(), "Branches", Toast.LENGTH_LONG ).show();
                 Intent brancheScreen = new Intent(this, BranchesActivity.class);
                 startActivity(brancheScreen);
                 return true;

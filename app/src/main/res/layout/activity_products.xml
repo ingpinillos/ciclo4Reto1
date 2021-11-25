@@ -10,13 +10,105 @@
         android:id="@+id/textView"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/purple_700"
-        android:text="Products"
+        android:text="@string/products"
         android:textAlignment="center"
         android:textColor="@color/purple_200"
-        android:textSize="36"
+        android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <TableLayout
+        android:id="@+id/tblProducts"
+        android:layout_width="409dp"
+        android:layout_height="665dp"
+        android:layout_margin="10sp"
+        android:orientation="horizontal"
+        app:layout_marginBaseline="10sp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="65dp">
+
+        <TableRow
+            android:id="@+id/imagen1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:contentDescription="TODO"
+                app:srcCompat="@drawable/prd1" />
+
+            <TextView
+                android:id="@+id/textViewImagen1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mixed Berries"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/imagen2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="TODO"
+                app:srcCompat="@drawable/prd2" />
+
+            <TextView
+                android:id="@+id/textViewImagen2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Croissant"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/imagen3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="TODO"
+                app:srcCompat="@drawable/prd3" />
+
+            <TextView
+                android:id="@+id/textViewImagen3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Custard Donut"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/imagen4"
+            android:layout_width="match_parent"
+            android:layout_height="207dp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="TODO"
+                app:srcCompat="@drawable/prd4" />
+
+            <TextView
+                android:id="@+id/textViewImagen4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Red Bean Dount"
+                android:textSize="16sp" />
+        </TableRow>
+    </TableLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

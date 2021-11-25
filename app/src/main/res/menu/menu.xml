@@ -4,11 +4,11 @@ xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/products"
         android:icon="@drawable/ic_products_background"
-        android:title="Productos" />
+        android:title="@string/productos" />
     <item
         android:id="@+id/services"
-        android:title="Servicios" />
+        android:title="@string/servicios" />
     <item
         android:id="@+id/branches"
-        android:title="Sucursales" />
+        android:title="@string/sucursales" />
 </menu>
