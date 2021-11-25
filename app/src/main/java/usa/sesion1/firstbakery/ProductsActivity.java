@@ -17,7 +17,7 @@ public class ProductsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_products);
-        Toast.makeText(getApplicationContext(), "Products", Toast.LENGTH_LONG ).show();
+        Toast.makeText(getApplicationContext(), "Products", Toast.LENGTH_LONG).show();
 
         //--------------------------------------------------------
         Resources res1 = getResources();

@@ -23,4 +23,5 @@
     <string name="productos">Productos</string>
     <string name="servicios">Servicios</string>
     <string name="logo">logo de la panadería</string>
+    <string name="title_activity_services">services</string>
 </resources>

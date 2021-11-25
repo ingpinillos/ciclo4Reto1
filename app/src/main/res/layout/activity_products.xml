@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/negro"
     tools:context=".ProductsActivity">
 
     <TextView
@@ -51,6 +52,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/product1"
+                android:textColor="@color/rojo"
                 android:textSize="16sp" />
         </TableRow>
 
@@ -71,6 +73,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/product2"
+                android:textColor="@color/rojo"
                 android:textSize="16sp" />
         </TableRow>
 
@@ -91,6 +94,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/product3"
+                android:textColor="@color/rojo"
                 android:textSize="16sp" />
         </TableRow>
 
@@ -111,6 +115,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/product4"
+                android:textColor="@color/rojo"
                 android:textSize="16sp" />
         </TableRow>
 
@@ -132,6 +137,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/product5"
+                android:textColor="@color/rojo"
                 android:textSize="16sp" />
         </TableRow>
     </TableLayout>

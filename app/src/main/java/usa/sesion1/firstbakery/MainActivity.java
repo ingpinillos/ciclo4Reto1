@@ -15,22 +15,19 @@ import androidx.appcompat.app.AppCompatActivity;
 public class MainActivity extends AppCompatActivity {
 
     Button boton1;
-    TextView texto1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        boton1 = (Button) findViewById(R.id.boton1);
+        boton1 = (Button) findViewById(R.id.button1);
         boton1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                texto1.setText("Fisrt Bakery..!");
-                Toast.makeText(getApplicationContext(), "Algún día vamos a re dirigir a WhatsApp", Toast.LENGTH_LONG ).show();
+                Toast.makeText(getApplicationContext(), "Algún día vamos a re dirigir a WhatsApp", Toast.LENGTH_LONG).show();
             }
         });
-        texto1 = (TextView) findViewById(R.id.textView1);
     }
 
     @Override
