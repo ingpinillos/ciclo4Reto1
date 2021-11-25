@@ -1,17 +1,26 @@
 <resources>
     <string name="app_name">First Bakery</string>
-    <string name="title_activity_services">ServicesActivity</string>
-    <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
-
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="whatsapp">WhatsApp</string>
+    <string name="products">Products</string>
+    <string name="product1">Mixed Berries</string>
+    <string name="product2">Croissant</string>
+    <string name="product3">Custard Donut</string>
+    <string name="product4">Red Bean Dount</string>
+    <string name="product5">Sunrise</string>
+    <string name="services">Services</string>
+    <string name="branches">Branches</string>
+    <string name="programmer1">Yiber Gonzalez</string>
+    <string name="programmer2">Victor Cano</string>
+    <string name="programmer3">Javier Pinillos</string>
+    <string name="classGroup">usa.edu.co Ciclo 4B G42 Grupo2</string>
+    <string name="programmers">Telefonos de contacto</string>
+    <string name="note1">Ofrece a sus clientes los mejores productos de panaderia</string>
+    <string name="note2">Información aceca de nosotros :</string>
+    <string name="tels">Teléfonos</string>
+    <string name="tel1">+57(601)234 5678</string>
+    <string name="tel2">+57(321)456 9876</string>
+    <string name="sucursales">Sucursales</string>
     <string name="productos">Productos</string>
     <string name="servicios">Servicios</string>
-    <string name="sucursales">Sucursales</string>
-    <string name="products">Products</string>
+    <string name="logo">logo de la panadería</string>
 </resources>

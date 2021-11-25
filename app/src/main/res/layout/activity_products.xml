@@ -8,11 +8,12 @@
 
     <TextView
         android:id="@+id/textView"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/purple_700"
+        android:backgroundTint="@color/purpura"
         android:text="@string/products"
         android:textAlignment="center"
-        android:textColor="@color/purple_200"
+        android:textColor="@color/rojo"
         android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,111 +24,114 @@
 
     <TableLayout
         android:id="@+id/tblProducts"
-        android:layout_width="409dp"
-        android:layout_height="665dp"
-        android:layout_margin="10sp"
-        android:orientation="horizontal"
-        app:layout_marginBaseline="10sp"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="65dp">
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_margin="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_marginBaseline="10sp">
 
         <TableRow
             android:id="@+id/image1"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
 
             <ImageView
                 android:id="@+id/imageView1"
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                android:contentDescription="TODO"
+                android:layout_width="200sp"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/product1"
                 app:srcCompat="@drawable/prd1" />
 
             <TextView
                 android:id="@+id/textViewImage1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Mixed Berries"
+                android:text="@string/product1"
                 android:textSize="16sp" />
         </TableRow>
 
         <TableRow
             android:id="@+id/image2"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
 
             <ImageView
                 android:id="@+id/imageView2"
-                android:layout_width="wrap_content"
+                android:layout_width="200sp"
                 android:layout_height="wrap_content"
-                android:contentDescription="TODO"
+                android:contentDescription="@string/product2"
                 app:srcCompat="@drawable/prd2" />
 
             <TextView
                 android:id="@+id/textViewImage2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Croissant"
+                android:text="@string/product2"
                 android:textSize="16sp" />
         </TableRow>
 
         <TableRow
             android:id="@+id/image3"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
 
             <ImageView
                 android:id="@+id/imageView3"
-                android:layout_width="wrap_content"
+                android:layout_width="200sp"
                 android:layout_height="wrap_content"
-                android:contentDescription="TODO"
+                android:contentDescription="@string/product3"
                 app:srcCompat="@drawable/prd3" />
 
             <TextView
                 android:id="@+id/textViewImage3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Custard Donut"
+                android:text="@string/product3"
                 android:textSize="16sp" />
         </TableRow>
 
         <TableRow
             android:id="@+id/image4"
-            android:layout_width="match_parent"
-            android:layout_height="207dp">
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
 
             <ImageView
                 android:id="@+id/imageView4"
-                android:layout_width="wrap_content"
+                android:layout_width="200sp"
                 android:layout_height="wrap_content"
-                android:contentDescription="TODO"
+                android:contentDescription="@string/product4"
                 app:srcCompat="@drawable/prd4" />
 
             <TextView
                 android:id="@+id/textViewImage4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Red Bean Dount"
+                android:text="@string/product4"
                 android:textSize="16sp" />
         </TableRow>
 
         <TableRow
             android:id="@+id/image5"
-            android:layout_width="match_parent"
-            android:layout_height="207dp">
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
 
             <ImageView
                 android:id="@+id/imageView5"
-                android:layout_width="wrap_content"
+                android:layout_width="200sp"
                 android:layout_height="wrap_content"
-                android:contentDescription="TODO"
-                app:srcCompat="@drawable/prd5" />
+                android:contentDescription="@string/product5"
+                app:srcCompat="@drawable/prd5"
+                tools:ignore="ImageContrastCheck" />
 
             <TextView
                 android:id="@+id/textViewImage5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Sunrise"
+                android:text="@string/product5"
                 android:textSize="16sp" />
         </TableRow>
     </TableLayout>

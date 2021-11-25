@@ -42,22 +42,21 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle item selection
         switch (item.getItemId()) {
             case R.id.products:
-                //Toast.makeText(getApplicationContext(), "Products", Toast.LENGTH_LONG ).show();
+                Toast.makeText(getApplicationContext(), "Products", Toast.LENGTH_LONG).show();
                 Intent productScreen = new Intent(this, ProductsActivity.class);
                 startActivity(productScreen);
                 return true;
             case R.id.services:
-                Toast.makeText(getApplicationContext(), "Services", Toast.LENGTH_LONG ).show();
+                Toast.makeText(getApplicationContext(), "Services", Toast.LENGTH_LONG).show();
                 Intent serviceScreen = new Intent(this, ServicesActivity.class);
                 startActivity(serviceScreen);
                 return true;
             case R.id.branches:
-                Toast.makeText(getApplicationContext(), "Branches", Toast.LENGTH_LONG ).show();
-                Intent brancheScreen = new Intent(this, BranchesActivity.class);
-                startActivity(brancheScreen);
+                Toast.makeText(getApplicationContext(), "Branches", Toast.LENGTH_LONG).show();
+                Intent branchScreen = new Intent(this, BranchesActivity.class);
+                startActivity(branchScreen);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);

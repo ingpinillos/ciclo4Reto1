@@ -18,7 +18,7 @@ public class ProductsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_products);
         Toast.makeText(getApplicationContext(), "Products", Toast.LENGTH_LONG ).show();
-        /*
+
         //--------------------------------------------------------
         Resources res1 = getResources();
         drawable1 = res1.getDrawable(R.drawable.prd1, getTheme());
@@ -54,7 +54,5 @@ public class ProductsActivity extends AppCompatActivity {
         image5 = (ImageView) findViewById(R.id.imageView5);
         image5.setImageDrawable(drawable5);
 
-
-        */
     }
 }
