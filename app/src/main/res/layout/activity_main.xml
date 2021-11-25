@@ -34,18 +34,16 @@
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/purpura"
             android:text="@string/app_name"
             android:textAlignment="center"
             android:textColor="@color/rojo"
-            android:textSize="36sp" />
+            android:textSize="48sp" />
 
         <TextView
             android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="1sp"
-            android:backgroundTint="@color/purpura"
             android:text="@string/tels"
             android:textAlignment="center"
             android:textColor="@color/verde" />
@@ -55,7 +53,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="1sp"
-            android:backgroundTint="@color/purpura"
             android:text="@string/tel1"
             android:textAlignment="center"
             android:textColor="@color/verde" />
@@ -65,40 +62,28 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="1sp"
-            android:backgroundTint="@color/purpura"
             android:text="@string/tel2"
             android:textAlignment="center"
             android:textColor="@color/verde" />
 
     </LinearLayout>
 
-    <LinearLayout
-        android:id="@+id/LinearLayout2"
-        android:layout_width="163dp"
-        android:layout_height="47dp"
-        android:layout_margin="10sp"
-        android:layout_marginStart="10sp"
-        android:layout_marginEnd="10sp"
-        android:baselineAligned="true"
-        android:drawingCacheQuality="auto"
-        android:orientation="vertical"
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="144dp"
+        android:layout_height="50dp"
+        android:layout_margin="1sp"
+        android:layout_marginTop="262dp"
+        android:layout_marginBottom="152dp"
+        android:background="@color/purpura"
+        android:text="@string/whatsapp"
         android:textAlignment="center"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textColor="@color/negro"
+        app:layout_constraintBottom_toTopOf="@+id/LinearLayout3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <Button
-            android:id="@+id/button1"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_margin="1sp"
-            android:backgroundTint="@color/purpura"
-            android:text="@string/whatsapp"
-            android:textAlignment="center"
-            android:textColor="@color/negro" />
-    </LinearLayout>
+        app:layout_constraintTop_toBottomOf="@+id/LinearLayout1" />
 
     <LinearLayout
         android:id="@+id/LinearLayout3"
@@ -117,22 +102,29 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:text="@string/note1"
+            android:textAlignment="center"
+            android:textColor="@color/purpura"
+            android:textSize="16sp" />
+
+        <TextView
             android:id="@+id/textView10"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="6sp"
-            android:backgroundTint="@color/negro"
+            android:background="@color/purpura"
             android:text="@string/classGroup"
             android:textAlignment="center"
-            android:textColor="@color/verde"
-            android:textSize="11sp" />
+            android:textColor="@color/blanco"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/textView11"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="6sp"
-            android:backgroundTint="@color/negro"
             android:text="@string/programmer1"
             android:textAlignment="center"
             android:textColor="@color/verde"
@@ -142,8 +134,6 @@
             android:id="@+id/textView12"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="6sp"
-            android:backgroundTint="@color/purpura"
             android:text="@string/programmer2"
             android:textAlignment="center"
             android:textColor="@color/verde"
@@ -153,32 +143,10 @@
             android:id="@+id/textView13"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="6sp"
-            android:backgroundTint="@color/purpura"
             android:text="@string/programmer3"
             android:textAlignment="center"
             android:textColor="@color/verde"
             android:textSize="11sp" />
     </LinearLayout>
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_margin="10sp"
-        android:layout_marginStart="9dp"
-        android:layout_marginTop="168dp"
-        android:layout_marginEnd="9dp"
-        android:layout_marginBottom="171dp"
-        android:backgroundTint="@color/purpura"
-        android:text="@string/note1"
-        android:textAlignment="center"
-        android:textColor="@color/verde"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="@+id/LinearLayout3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/LinearLayout2" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
